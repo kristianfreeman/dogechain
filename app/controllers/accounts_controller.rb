@@ -1,3 +1,6 @@
+require 'json'
+require 'open-uri'
+
 class AccountsController < ApplicationController
   def show
     @api_key = params[:api_key]
